@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <!-- SEO CORE -->
     <title>Ultra GPU Stress Test | Online RTX & GPU Benchmark Tool</title>
-    <meta name="google-site-verification" content="KSAN_Vy1_JtX4G6V3J1DwMf76EVeptWcv_euu_NV3r0" />
-    <meta name="description" content="Ultra GPU Stress Test is a powerful online GPU & RTX benchmark tool. Test your graphics card under extreme load directly in your browser.">
 
+    <meta name="description" content="Ultra GPU Stress Test is a powerful online GPU & RTX benchmark tool. Test your graphics card under extreme load directly in your browser.">
+    <meta name="google-site-verification" content="KSAN_Vy1_JtX4G6V3J1DwMf76EVeptWcv_euu_NV3r0" />
     <meta name="keywords" content="Ultra GPU Stress Test, GPU stress test, RTX stress test, GPU benchmark online, test GPU online, RTX benchmark">
 
     <meta name="robots" content="index, follow">
@@ -894,6 +894,63 @@
             box-shadow: 0 0 30px rgba(0, 102, 255, 0.5);
         }
 
+        /* SEO Content Section */
+        #seo-content {
+            display: block;
+            padding: 40px;
+            background: #050515;
+            color: #fff;
+            margin-top: 40px;
+            border-radius: 20px;
+            border: 2px solid #00ffcc;
+            box-shadow: 0 0 30px rgba(0, 255, 204, 0.2);
+        }
+
+        #seo-content h2 {
+            color: #00ffcc;
+            font-size: 1.8rem;
+            margin: 30px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(0, 255, 204, 0.3);
+        }
+
+        #seo-content h2:first-child {
+            margin-top: 0;
+        }
+
+        #seo-content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #e0e0ff;
+        }
+
+        #seo-content ul {
+            list-style-type: none;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        #seo-content li {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 10px;
+            color: #e0e0ff;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        #seo-content li:before {
+            content: "▸";
+            color: #00ffcc;
+            position: absolute;
+            left: 0;
+        }
+
+        #seo-content strong {
+            color: #00ffcc;
+        }
+
         /* Responsive Design */
         @media (max-width: 1200px) {
             .header h1 {
@@ -971,6 +1028,19 @@
             
             .warning-btn {
                 width: 100%;
+            }
+            
+            #seo-content {
+                padding: 20px;
+            }
+            
+            #seo-content h2 {
+                font-size: 1.5rem;
+            }
+            
+            #seo-content p,
+            #seo-content li {
+                font-size: 1rem;
             }
         }
     </style>
@@ -1216,6 +1286,39 @@ Do you want to continue?</div>
                 </div>
             </div>
         </div>
+
+        <!-- SEO Content Section -->
+        <section id="seo-content">
+            <h2 id="seoTitle1">What is Ultra GPU Stress Test?</h2>
+            <p id="seoText1">
+                Ultra GPU Stress Test is an advanced online GPU benchmark designed to push modern graphics cards to their absolute limits. 
+                It supports RTX, AMD, and integrated GPUs directly in your browser with no installation required.
+            </p>
+
+            <h2 id="seoTitle2">Why use Ultra GPU Stress Test?</h2>
+            <ul id="seoList">
+                <li id="seoListItem1">Test GPU stability under extreme load</li>
+                <li id="seoListItem2">Benchmark RTX ray tracing performance</li>
+                <li id="seoListItem3">Detect overheating and throttling</li>
+                <li id="seoListItem4">Works directly in browser</li>
+            </ul>
+
+            <h2 id="seoTitle3">Supported Graphics Cards</h2>
+            <p id="seoText2">
+                Ultra GPU Stress Test supports NVIDIA RTX, AMD Radeon, Intel Arc and integrated GPUs.
+            </p>
+
+            <h2 id="seoTitle4">GPU Stress Test FAQ</h2>
+            <p id="seoText3">
+                <strong id="seoQuestion1">Is Ultra GPU Stress Test safe?</strong><br>
+                <span id="seoAnswer1">Yes, but it pushes hardware to limits. Proper cooling is recommended.</span>
+            </p>
+
+            <p id="seoText4">
+                <strong id="seoQuestion2">Do I need to install anything?</strong><br>
+                <span id="seoAnswer2">No, everything runs online inside your browser.</span>
+            </p>
+        </section>
 
         <div class="footer">
             <div id="footerText">Ultra Heavy GPU Stress Test v20.0 Ultimate Edition | Compatible with all graphics cards</div>
@@ -1570,7 +1673,22 @@ Do you want to continue?</div>
                         warningTitle: "⚠️ WARNING",
                         warningText: "This is an EXTREME GPU stress test!\n\nThis test will push your GPU to its absolute limits.\n\nMake sure your cooling system is adequate.\n\nDo you want to continue?",
                         warningConfirm: "CONTINUE",
-                        warningCancel: "CANCEL"
+                        warningCancel: "CANCEL",
+                        // SEO Content translations
+                        seoTitle1: "What is Ultra GPU Stress Test?",
+                        seoText1: "Ultra GPU Stress Test is an advanced online GPU benchmark designed to push modern graphics cards to their absolute limits. It supports RTX, AMD, and integrated GPUs directly in your browser with no installation required.",
+                        seoTitle2: "Why use Ultra GPU Stress Test?",
+                        seoListItem1: "Test GPU stability under extreme load",
+                        seoListItem2: "Benchmark RTX ray tracing performance",
+                        seoListItem3: "Detect overheating and throttling",
+                        seoListItem4: "Works directly in browser",
+                        seoTitle3: "Supported Graphics Cards",
+                        seoText2: "Ultra GPU Stress Test supports NVIDIA RTX, AMD Radeon, Intel Arc and integrated GPUs.",
+                        seoTitle4: "GPU Stress Test FAQ",
+                        seoQuestion1: "Is Ultra GPU Stress Test safe?",
+                        seoAnswer1: "Yes, but it pushes hardware to limits. Proper cooling is recommended.",
+                        seoQuestion2: "Do I need to install anything?",
+                        seoAnswer2: "No, everything runs online inside your browser."
                     },
                     fa: {
                         mainTitle: "تست فشار فوق سنگین GPU",
@@ -1602,7 +1720,22 @@ Do you want to continue?</div>
                         warningTitle: "⚠️ هشدار",
                         warningText: "این یک تست فشار فوق‌سنگین GPU است!\n\nاین تست کارت گرافیک شما را تا حد نهایی فشار خواهد داد.\n\nمطمئن شوید سیستم خنک‌کننده کافی دارید.\n\nآیا می‌خواهید ادامه دهید؟",
                         warningConfirm: "ادامه",
-                        warningCancel: "لغو"
+                        warningCancel: "لغو",
+                        // SEO Content translations
+                        seoTitle1: "تست فشار Ultra GPU چیست؟",
+                        seoText1: "تست فشار Ultra GPU یک ابزار بنچمارک پیشرفته آنلاین برای کارت‌های گرافیک است که برای فشار دادن کارت‌های گرافیک مدرن به حد نهایی طراحی شده است. این تست از کارت‌های RTX، AMD و گرافیک مجتمع بدون نیاز به نصب و مستقیماً در مرورگر پشتیبانی می‌کند.",
+                        seoTitle2: "چرا از تست فشار Ultra GPU استفاده کنیم؟",
+                        seoListItem1: "تست پایداری GPU تحت فشار شدید",
+                        seoListItem2: "بنچمارک عملکرد ری‌ترینگ RTX",
+                        seoListItem3: "تشخیص داغ شدن و کاهش فرکانس",
+                        seoListItem4: "مستقیماً در مرورگر کار می‌کند",
+                        seoTitle3: "کارت‌های گرافیک پشتیبانی شده",
+                        seoText2: "تست فشار Ultra GPU از کارت‌های NVIDIA RTX، AMD Radeon، Intel Arc و گرافیک‌های مجتمع پشتیبانی می‌کند.",
+                        seoTitle4: "سوالات متداول تست فشار GPU",
+                        seoQuestion1: "آیا تست فشار Ultra GPU ایمن است؟",
+                        seoAnswer1: "بله، اما سخت‌افزار را تا حد نهایی تحت فشار قرار می‌دهد. سیستم خنک‌کننده مناسب توصیه می‌شود.",
+                        seoQuestion2: "آیا نیاز به نصب چیزی دارم؟",
+                        seoAnswer2: "خیر، همه چیز به صورت آنلاین در مرورگر شما اجرا می‌شود."
                     },
                     ar: {
                         mainTitle: "اختبار إجهاد GPU فائق الثقل",
@@ -1634,7 +1767,22 @@ Do you want to continue?</div>
                         warningTitle: "⚠️ تحذير",
                         warningText: "هذا اختبار إجهاد GPU فائق الثقل!\n\nهذا الاختبار سيدفع بطاقة الشاشة إلى أقصى حدودها.\n\nتأكد من أن نظام التبريد كافٍ.\n\nهل تريد المتابعة؟",
                         warningConfirm: "متابعة",
-                        warningCancel: "إلغاء"
+                        warningCancel: "إلغاء",
+                        // SEO Content translations
+                        seoTitle1: "ما هو اختبار إجهاد Ultra GPU؟",
+                        seoText1: "اختبار إجهاد Ultra GPU هو أداة قياس أداء متقدمة على الإنترنت مصممة لدفع كروت الشاشة الحديثة إلى أقصى حدودها. يدعم RTX و AMD والرسومات المدمجة مباشرة في متصفحك دون الحاجة إلى تثبيت.",
+                        seoTitle2: "لماذا استخدام اختبار إجهاد Ultra GPU؟",
+                        seoListItem1: "اختبار استقرار GPU تحت حمل شديد",
+                        seoListItem2: "قياس أداء تتبع الأشعة RTX",
+                        seoListItem3: "كشف ارتفاع الحرارة والتباطؤ",
+                        seoListItem4: "يعمل مباشرة في المتصفح",
+                        seoTitle3: "كروت الشاشة المدعومة",
+                        seoText2: "يدعم اختبار إجهاد Ultra GPU كروت NVIDIA RTX و AMD Radeon و Intel Arc والرسومات المدمجة.",
+                        seoTitle4: "الأسئلة الشائعة لاختبار إجهاد GPU",
+                        seoQuestion1: "هل اختبار إجهاد Ultra GPU آمن؟",
+                        seoAnswer1: "نعم، لكنه يدفع الأجهزة إلى الحدود القصوى. يوصى بنظام تبريد مناسب.",
+                        seoQuestion2: "هل أحتاج إلى تثبيت أي شيء؟",
+                        seoAnswer2: "لا، كل شيء يعمل عبر الإنترنت داخل متصفحك."
                     },
                     zh: {
                         mainTitle: "超重型GPU压力测试",
@@ -1666,7 +1814,22 @@ Do you want to continue?</div>
                         warningTitle: "⚠️ 警告",
                         warningText: "这是极端GPU压力测试！\n\n此测试将把您的显卡推到极限。\n\n请确保您的冷却系统足够。\n\n您要继续吗？",
                         warningConfirm: "继续",
-                        warningCancel: "取消"
+                        warningCancel: "取消",
+                        // SEO Content translations
+                        seoTitle1: "什么是Ultra GPU压力测试？",
+                        seoText1: "Ultra GPU压力测试是一种先进的在线GPU基准测试工具，旨在将现代显卡推向极限。它支持RTX、AMD和集成GPU，无需安装即可直接在浏览器中使用。",
+                        seoTitle2: "为什么要使用Ultra GPU压力测试？",
+                        seoListItem1: "在极端负载下测试GPU稳定性",
+                        seoListItem2: "基准测试RTX光线追踪性能",
+                        seoListItem3: "检测过热和降频",
+                        seoListItem4: "直接在浏览器中工作",
+                        seoTitle3: "支持的显卡",
+                        seoText2: "Ultra GPU压力测试支持NVIDIA RTX、AMD Radeon、Intel Arc和集成显卡。",
+                        seoTitle4: "GPU压力测试常见问题",
+                        seoQuestion1: "Ultra GPU压力测试安全吗？",
+                        seoAnswer1: "是的，但它会将硬件推向极限。建议使用适当的冷却系统。",
+                        seoQuestion2: "我需要安装任何东西吗？",
+                        seoAnswer2: "不需要，所有内容都在您的浏览器中在线运行。"
                     },
                     ru: {
                         mainTitle: "Сверхтяжелый стресс-тест GPU",
@@ -1698,7 +1861,22 @@ Do you want to continue?</div>
                         warningTitle: "⚠️ ВНИМАНИЕ",
                         warningText: "Это ЭКСТРЕМАЛЬНЫЙ стресс-тест GPU!\n\nЭтот тест будет нагружать вашу видеокарту до предела.\n\nУбедитесь, что система охлаждения адекватна.\n\nВы хотите продолжить?",
                         warningConfirm: "ПРОДОЛЖИТЬ",
-                        warningCancel: "ОТМЕНА"
+                        warningCancel: "ОТМЕНА",
+                        // SEO Content translations
+                        seoTitle1: "Что такое стресс-тест Ultra GPU?",
+                        seoText1: "Стресс-тест Ultra GPU - это продвинутый онлайн-бенчмарк для видеокарт, предназначенный для проверки современных графических карт на пределе их возможностей. Он поддерживает RTX, AMD и интегрированные GPU напрямую в вашем браузере без установки.",
+                        seoTitle2: "Зачем использовать стресс-тест Ultra GPU?",
+                        seoListItem1: "Тестирование стабильности GPU при экстремальной нагрузке",
+                        seoListItem2: "Бенчмарк производительности трассировки лучей RTX",
+                        seoListItem3: "Обнаружение перегрева и троттлинга",
+                        seoListItem4: "Работает напрямую в браузере",
+                        seoTitle3: "Поддерживаемые видеокарты",
+                        seoText2: "Стресс-тест Ultra GPU поддерживает NVIDIA RTX, AMD Radeon, Intel Arc и интегрированные видеокарты.",
+                        seoTitle4: "Часто задаваемые вопросы о стресс-тесте GPU",
+                        seoQuestion1: "Безопасен ли стресс-тест Ultra GPU?",
+                        seoAnswer1: "Да, но он нагружает оборудование до предела. Рекомендуется адекватное охлаждение.",
+                        seoQuestion2: "Нужно ли что-то устанавливать?",
+                        seoAnswer2: "Нет, всё работает онлайн в вашем браузере."
                     }
                 };
                 
@@ -1711,7 +1889,8 @@ Do you want to continue?</div>
                 
                 if (!t) return;
                 
-                const elements = [
+                // Update main elements
+                const mainElements = [
                     'mainTitle', 'subTitle', 'testSelectionTitle',
                     'test1Name', 'test2Name', 'test3Name', 'test4Name', 'test5Name',
                     'settingsTitle', 'qualityLabel', 'pressureLabel', 'resolutionLabel',
@@ -1723,7 +1902,22 @@ Do you want to continue?</div>
                     'warningTitle', 'warningText', 'warningConfirm', 'warningCancel'
                 ];
                 
-                elements.forEach(key => {
+                mainElements.forEach(key => {
+                    const element = document.getElementById(key);
+                    if (element && t[key]) {
+                        element.textContent = t[key];
+                    }
+                });
+                
+                // Update SEO content elements
+                const seoElements = [
+                    'seoTitle1', 'seoText1', 'seoTitle2', 
+                    'seoListItem1', 'seoListItem2', 'seoListItem3', 'seoListItem4',
+                    'seoTitle3', 'seoText2', 'seoTitle4',
+                    'seoQuestion1', 'seoAnswer1', 'seoQuestion2', 'seoAnswer2'
+                ];
+                
+                seoElements.forEach(key => {
                     const element = document.getElementById(key);
                     if (element && t[key]) {
                         element.textContent = t[key];
@@ -3396,37 +3590,5 @@ Do you want to continue?</div>
             console.log('✅ Ultra Heavy GPU Stress Test successfully loaded!');
         });
     </script>
-    <section id="seo-content" style="display:block; padding:40px; background:#050515; color:#fff">
-
-    <h2>What is Ultra GPU Stress Test?</h2>
-    <p>
-    Ultra GPU Stress Test is an advanced online GPU benchmark designed to push modern graphics cards to their absolute limits. 
-    It supports RTX, AMD, and integrated GPUs directly in your browser with no installation required.
-    </p>
-
-    <h2>Why use Ultra GPU Stress Test?</h2>
-    <ul>
-    <li>Test GPU stability under extreme load</li>
-    <li>Benchmark RTX ray tracing performance</li>
-    <li>Detect overheating and throttling</li>
-    <li>Works directly in browser</li>
-    </ul>
-
-    <h2>Supported Graphics Cards</h2>
-    <p>
-    Ultra GPU Stress Test supports NVIDIA RTX, AMD Radeon, Intel Arc and integrated GPUs.
-    </p>
-
-    <h2>GPU Stress Test FAQ</h2>
-    <p><strong>Is Ultra GPU Stress Test safe?</strong><br>
-    Yes, but it pushes hardware to limits. Proper cooling is recommended.</p>
-
-    <p><strong>Do I need to install anything?</strong><br>
-    No, everything runs online inside your browser.</p>
-
-    </section>
-
 </body>
-
 </html>
-
